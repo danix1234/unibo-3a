@@ -1,0 +1,48 @@
+<!DOCTYPE>
+<html lang="it">
+
+<head>
+    <title>Homework 27/09/2024</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Valutazione Esercizi</caption>
+        <thead>
+            <tr>
+                <th id="ese" scope="col" rowspan="2">Esercizio</th>
+                <th id="val" scope="colgroup" colspan="2">Valutazione</th>
+            </tr>
+            <tr>
+                <th id="min" headers="val" scope="col">minimo</th>
+                <th id="mas" headers="val" scope="col">massimo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th id="es1" headers="ese">Esercizio 1</th>
+                <td headers="es1 val min">3</td>
+                <td headers="es1 val max">5</td>
+            </tr>
+            <tr>
+                <th id="es2" headers="ese">Esercizio 2</th>
+                <td headers="es2 val min">5</td>
+                <td headers="es2 val max">7</td>
+            </tr>
+            <tr>
+                <th id="es3" headers="ese">Esercizio 3</th>
+                <td headers="es3 val min">7</td>
+                <td headers="es3 val max">9</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
