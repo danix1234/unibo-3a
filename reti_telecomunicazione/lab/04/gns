@@ -1,0 +1,18 @@
+use desktop gns3 app
+
+router -> console
+    
+config:
+conf t
+    int <interface name>
+        ip addrress <ip addr> <netmask>
+        no shut
+        ip nat outside                          abilita nat verso esterno
+        ip nat inside                           abilita nat verso interno
+        end
+
+sh ip int br
+
+
+kvm acceleration?
+
